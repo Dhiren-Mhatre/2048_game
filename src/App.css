@@ -1,0 +1,14 @@
+.container {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(9, 12, 123, 1) 59%, rgba(0, 212, 255, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container__action {
+  margin-top: 40px;
+}

@@ -1,0 +1,24 @@
+.action-panel {
+  display: flex;
+}
+
+.action-panel__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.action-panel__button {
+  color: white;
+  margin: 0 40px;
+  cursor: pointer;
+}
+
+.action-panel__button--disabled {
+  color: white;
+  margin: 0 40px;
+  cursor: auto;
+}
